@@ -1,0 +1,24 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(42, 42, 42);
+  background-color: rgb(226, 248, 255);
+  padding: 2em;
+}
+
+.loading {
+  border: 16px solid #dedede;
+  animation: spin 2s linear infinite;
+  height: 50px;
+  width: 50px;
+  border-top: 16px solid red;
+  border-radius: 50%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
